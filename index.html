@@ -4,17 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🎉 Feliz Cumpleaños 🎂</title>
-  <link rel="stylesheet" href="style.css"> <!-- conecta con el CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>¡Feliz Cumpleaños Wen! 🎉</h1>
-  <p>Espero que tengas un día increíble 🥳</p>
-  
-  <button onclick="mostrarSorpresa()">🎁 Ver sorpresa</button>
-  
+  <p>Haz clic en un número para ver tu sorpresa 🥳</p>
 
+  <!-- Botones del 1 al 17 -->
+  <div class="botones">
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img1.png')">1</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img2.png')">2</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img3.png')">3</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img4.png')">4</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img5.png')">5</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img6.png')">6</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img7.png')">7</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img8.png')">8</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img9.png')">9</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img10.png')">10</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img11.png')">11</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img12.png')">12</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img13.png')">13</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img14.png')">14</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img15.png')">15</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img16.png')">16</button>
+    <button onclick="cambiarImagen('https://raw.githubusercontent.com/axeldeadmh/WenBday/main/img17.png')">17</button>
+  </div>
 
-  <script src="script.js"></script> <!-- conecta con el JS -->
+  <!-- Contenedor para mostrar la imagen -->
+  <div id="contenedorImagen">
+    <img id="imagenVisible" src="" alt="Imagen seleccionada">
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
